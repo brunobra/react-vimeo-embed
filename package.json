@@ -1,7 +1,7 @@
 {
-  "name": "@u-wave/react-vimeo",
+  "name": "react-vimeo-embed",
   "version": "0.8.3",
-  "description": "Vimeo player component for React.",
+  "description": "Vimeo player embed component for React.",
   "main": "dist/react-vimeo.js",
   "module": "dist/react-vimeo.es.js",
   "scripts": {
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/u-wave/react-vimeo.git"
+    "url": "git+https://github.com/brunobra/react-vimeo-embed.git"
   },
   "keywords": [
     "youtube",
@@ -25,12 +25,12 @@
     "react-component",
     "video"
   ],
-  "author": "Renée Kooi <renee@kooi.me>",
+  "author": "Bruno Junqueira <brunootaviojunqueira@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/u-wave/react-vimeo/issues"
+    "url": "https://github.com/brunobra/react-vimeo-embed/issues"
   },
-  "homepage": "https://github.com/u-wave/react-vimeo#readme",
+  "homepage": "https://github.com/brunobra/react-vimeo-embed#readme",
   "dependencies": {
     "@types/react": "^16.9.32",
     "@types/vimeo__player": "^2.9.0",
