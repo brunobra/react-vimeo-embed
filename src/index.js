@@ -45,6 +45,7 @@ class Vimeo extends React.Component {
       muted: this.props.muted,
       background: this.props.background,
       responsive: this.props.responsive,
+      playsinline: this.props.playsinline,
     };
     /* eslint-enable react/destructuring-assignment */
   }
@@ -279,6 +280,11 @@ if (process.env.NODE_ENV !== 'production') {
      */
     responsive: PropTypes.bool,
 
+    /**
+     * Whether the video plays inline on supported mobile devices. To force the device to play the video in fullscreen mode instead, set this value to false.
+     */
+    playsinline: PropTypes.bool,
+
     // Events
     /* eslint-disable react/no-unused-prop-types */
 
@@ -360,6 +366,7 @@ Vimeo.defaultProps = {
   muted: false,
   background: false,
   responsive: false,
+  playsinline: true,
 };
 
 export default Vimeo;
